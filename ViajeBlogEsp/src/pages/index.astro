@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+// import Card from '../components/Card.astro';
+import Navbar from '../components/Navbar.jsx';
+import ImagenInicio from '../components/ImagenInicio.astro';
+import Wave from "../components/wave.astro";
+import SobreElViaje from "../components/SobreElViaje.astro"
+import Personas from '../components/Personas.astro';
+import Footer from "../components/Footer.astro"
+---
+
+
+<Navbar>
+		
+</Navbar>
+<Layout title="Welcome to Blog España.">
+	<main>
+	<ImagenInicio></ImagenInicio>
+	<Wave></Wave>
+	<SobreElViaje></SobreElViaje>
+	<Personas></Personas>
+	<Footer></Footer>
+	
+	</main>
+</Layout>
+
+<style>
+	main {
+    margin-top: 50px; 
+    }
+</style>
